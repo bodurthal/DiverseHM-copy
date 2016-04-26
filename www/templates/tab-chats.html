@@ -1,6 +1,10 @@
-<ion-view view-title="Chats">
+ <ion-view view-title="Groups">
     <ion-content>
     <ion-scroll zooming="false" direction="xy" style="width: 1261px; height: 1000px">
+ 
+  <!-- The nav bar that will be updated as we navigate -->
+ 
+  <!-- where the initial view template will be rendered -->
   
     <ion-list>
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">

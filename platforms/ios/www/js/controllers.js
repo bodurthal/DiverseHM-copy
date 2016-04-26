@@ -1,5 +1,26 @@
 angular.module('starter.controllers', [])
 
+.controller('PlaylistsCtrl', function($scope, $ionicPopup, $timeout) {
+  $scope.data = {}
+
+  // Triggered on a button click, or some other target
+  $scope.showPopup = function() {
+    var alertPopup = $ionicPopup.alert({
+      title: 'Dont eat that!',
+      template: 'It might taste good'
+    });
+    alertPopup.then(function(res) {
+      console.log('Thank you for not eating my delicious ice cream cone');
+    });
+  };
+})
+
+
+
+
+
+
+
 .controller('DashCtrl', function($scope) {})
 
 .controller('ChatsCtrl', function($scope, Chats) {
@@ -25,4 +46,13 @@ angular.module('starter.controllers', [])
   $scope.settings = {
     enableFriends: true
   };
+            
+            
+            
+            
+            
+            
+            
+            
+            
 });

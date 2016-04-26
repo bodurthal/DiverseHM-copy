@@ -69,6 +69,12 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.ionicframework.diversehm195633"
         }
     },
     "dependent_plugins": {}
